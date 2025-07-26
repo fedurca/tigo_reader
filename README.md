@@ -69,12 +69,14 @@ Output Example
 Human-readable:
 
 === Last measurement (16:30) ===
+
 Panel A1: Power=122 W | Voltage=32 V | Current=3.66 A | Temperature=N/A °C | RSSI=101 dBm
 Panel A2: Power=114 W | Voltage=33 V | Current=3.42 A | Temperature=N/A °C | RSSI=105 dBm
 Panel A3: Power=111 W | Voltage=33 V | Current=3.33 A | Temperature=N/A °C | RSSI=72 dBm
 ...
+
 JSON:
-json
+
 {
   "time": "16:30",
   "values": {
