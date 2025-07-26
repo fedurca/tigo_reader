@@ -26,8 +26,11 @@ Create a secret.txt file in the same directory with your Tigo gateway parameters
 
 
 URL = "http://192.168.1.333/cgi-bin/summary_data"
+
 USERNAME = "Tigo"
+
 PASSWORD = "$olar"
+
 Tip: Replace URL, USERNAME, and PASSWORD with your actual gateway credentials.
 
 Usage
