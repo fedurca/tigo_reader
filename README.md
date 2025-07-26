@@ -44,6 +44,13 @@ Run the script:
 python3 main.py [OPTIONS]
 ```
 
+Count current cumulative power:
+
+```bash
+python3 main.py | awk '{for(i=1;i<=NF;i++) if($i ~ /^Power=/){gsub("Power=","",$i); sum+=$i}} END{print "Total Power = " sum " W"}'
+```
+
+
 ---
 
 ### Options
