@@ -33,7 +33,7 @@ Tip: Replace URL, USERNAME, and PASSWORD with your actual gateway credentials.
 Usage
 Run the script:
 
-python3 tm.py [OPTIONS]
+python3 main.py [OPTIONS]
 Options
 Option	Description
 --json-only	Output only JSON data (raw structure).
@@ -59,7 +59,7 @@ Debugging API calls:
 python3 main.py --debug
 Custom gateway address & credentials:
 
-python3 main.py --url http://192.168.1.50/cgi-bin/summary_data --login MyUser --password MyPass
+python3 main.py --url http://192.168.1.333/cgi-bin/summary_data --login MyUser --password MyPass
 Temperature Support
 Temperature values are shown as N/A if the local API does not provide optimizer temperature.
 
